@@ -35,11 +35,11 @@ describe('MatInputPromptComponent', () => {
 
   it('should initialize the form in EDIT mode with the correct data', () => {
     component.mode = 'EDIT';
-    component.localData = { name: 'John', surname: 'Doe', phone: '1234567890' };
+    component.localData = { name: 'abc', surname: 'Def', phone: '1234567890' };
     component.initForm();
     expect(component.form).toBeDefined();
-    expect(component.form.controls['name'].value).toEqual('John');
-    expect(component.form.controls['surname'].value).toEqual('Doe');
+    expect(component.form.controls['name'].value).toEqual('abc');
+    expect(component.form.controls['surname'].value).toEqual('Def');
     expect(component.form.controls['phone'].value).toEqual('1234567890');
   });
 

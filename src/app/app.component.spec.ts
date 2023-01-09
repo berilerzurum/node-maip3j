@@ -55,3 +55,4 @@ describe('AppComponent', () => {
     expect(component.dataFromDialog).toEqual({ id: 1, name: 'Hydrogen', surname: 'aa', phone: 123 });
   });
 });
+
