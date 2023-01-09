@@ -3,8 +3,6 @@ import { Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 import { MatTableDataSource } from '@angular/material/table';
-import { MatAlertComponent } from './ng-material/mat-alert/mat-alert.component';
-import { MatConfirmComponent } from './ng-material/mat-confirm/mat-confirm.component';
 import { MatInputPromptComponent } from './ng-material/mat-input-prompt/mat-input-prompt.component';
 
 
